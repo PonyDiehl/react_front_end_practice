@@ -1,0 +1,71 @@
+.gpt4__header{
+    display: flex;
+}
+.gpt4__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.gpt4__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 3.9rem;
+    line-height: 4.7rem;
+    letter-spacing: -0.04em;
+}
+.gpt4__header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+.gpt4__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+.gpt4__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 3.125rem;
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    line-height: 1.68rem;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: fff;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+.gpt4__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 3.125rem;
+    background: #ff4820;
+    border-radius: 0.3rem 0 0 0.3rem;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.68rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+.gpt3__header-content__people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
