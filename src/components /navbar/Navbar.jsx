@@ -5,7 +5,7 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href='#home'>Home</a></p>
+          <p><a href='#home'>Home</a></p>
           <p><a href='#wgpt3'>What is GPT4?</a></p>
           <p><a href='#possibility'>Open AI</a></p>
           <p><a href='#features'>Case Studies</a></p>
