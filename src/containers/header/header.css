@@ -63,9 +63,21 @@
     border-top-right-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
 }
-.gpt3__header-content__people {
+.gpt4__header-content__people {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     margin-top: 2rem;
+}
+.gpt4__header-content__people img {
+    width: 11.3rem;
+    height: 2.375rem;
+}
+.gpt4__header-content__people p {
+    margin-left: 1rem;
+    font-size: var(--font-family);
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 2.375rem;
 }
