@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import { RiMenu3Line, RiCloseLi, RiCloseCircleLine } from 'react-icons/ri';
+import { RiMenu3Line, RiCloseCircleLine } from 'react-icons/ri';
 import logo from '../../assets/GPT-3.svg';
 import './navbar.css';
 
-const Menu =() => (
+const Menu = () => (
   <>
   <p><a href='#home'>Home</a></p>
           <p><a href='#wgpt3'>What is GPT4?</a></p>
@@ -29,7 +29,7 @@ const Navbar = () => {
         <button type='button'>Sign Up</button>
       </div>
       <div className='gpt4_navbar-menu'>
-        {toggleMenu
+        { toggleMenu
         ? <RiCloseCircleLine color='#fff' size={27} onClick={ () => setToggleMenu(false)} />
         : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
         }
@@ -38,6 +38,10 @@ const Navbar = () => {
           <div className='gpt4__navbar-menu_container scale-up-center'>
             <div className='gpt4__navbar-menu_container-links'>
             <Menu/>
+              <div className='gpt4__navbar-menu_container-links-sign'>
+              <p>Sign In</p>
+              <button type='button'>Sign Up</button>
+              </div>
             </div>
           </div>
         )}
